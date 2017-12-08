@@ -13,14 +13,14 @@ p {
 }
 
 .bg-1 {
-    background-color: #9DD9D2;
-    /* light Blue */
+    background-color: #336699;
+    /* dark Blue */
     color: #ffffff;
 }
 
 .bg-2 {
     background-color: #474e5d;
-    /* Dark Blue */
+    /* grey */
     color: #ffffff;
 }
 
