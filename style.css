@@ -36,6 +36,12 @@ a:active {
     background-color: #336699;
     /* dark Blue */
     color: #ffffff;
+    text-decoration: none;
+        
+}
+
+nav a:link {
+    text-decoration: none;
 }
 
 .bg-2 {
