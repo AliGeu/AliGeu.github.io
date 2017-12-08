@@ -8,6 +8,26 @@ p {
     font-size: 16px;
 }
 
+ /* unvisited link */
+ a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: hotpink;
+} 
 .margin {
     margin-bottom: 45px;
 }
