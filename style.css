@@ -36,8 +36,7 @@ a:active {
     background-color: #336699;
     /* dark Blue */
     color: #ffffff;
-    text-decoration: none;
-        
+    text-decoration: none;       
 }
 
 nav a:link {
@@ -103,7 +102,6 @@ nav a:link {
     visibility: visible;
 }
 
-
 /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
 
 @keyframes slide {
@@ -128,9 +126,7 @@ nav a:link {
     }
 }
 
-
 /* End CSS Slideanim */
-
 
 /* Modal styling 
 
@@ -144,7 +140,6 @@ fix problem: first thing written here not recognized  */
     color: black;
 }
 
-
 /* end of modal CSS  */
 
 .carousel-control.right,
@@ -152,7 +147,6 @@ fix problem: first thing written here not recognized  */
     background-image: none;
     color: #f4511e;
 }
-
 
 /* Carousel CSS */
 
@@ -177,20 +171,40 @@ fix problem: first thing written here not recognized  */
     font-style: normal;
 }
 
-
 /* End of Carousel CSS  */
 
 .img-responsive {
     position: center;
-   
 }
-
 
 .col-sm-4 img{
    
    display: block;
    margin: auto;
+}
+/*Left-align panel content in acchordion*/
+.panel-body {text-align: left};
 
-   
+/*Styling of Photographic carousel*/
+.carousel-inner img {
+    width:100%;
+    
 }
 
+/*Contact Form*/
+#success_message{ 
+    display: none;
+}
+
+.form-group {
+    color: black;
+}
+
+#getInTouch {
+    color: black;
+}
+
+#cancel a {
+    font-size: .75em;
+    color: grey;
+}
